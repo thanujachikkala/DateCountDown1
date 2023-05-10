@@ -1,0 +1,38 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.content{
+    top:50%;
+    position: absolute;
+    transform: translateY(-50%);
+    color:black;
+}
+
+.content h1{
+    font-size: 64px;
+    font-weight: 500;
+}
+.content h1 span{
+    color: #ff3753;
+}
+.launch-time{
+    display: flex;
+}
+.launch-time div{
+    flex-basis: 100px;
+}
+.launch-time div p{
+    font-size: 40px;
+    margin-bottom: -14px;
+
+}
